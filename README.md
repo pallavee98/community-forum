@@ -10,6 +10,18 @@
 
 * Connect SMTP service
   * Outgoing email (SMTP) credentials that Zulip can use to send outgoing emails to users (e.g. email address confirmation emails during the signup process, message notification emails, password reset, etc.).
+  * However, people cannot register yet, so let’s connect the SMTP service to Zulip. All you need to do is add the credentials from your SMTP provider.
+
+* Enter them in /etc/zulip/settings.py and the password in /etc/zulip/zulip-secrets.conf.
+
+'''EMAIL_HOST = "smtp-relay.sendinblue.com"
+EMAIL_HOST_USER = "your_registration@email.com"
+EMAIL_PORT = 587'''
+
+ * Restart the server with
+
+''' su zulip -c '/home/zulip/deployments/current/scripts/restart-server' '''
+
 * Add Auth methods
 * Mobile push notifications
 * Maintenance
