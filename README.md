@@ -23,6 +23,7 @@ EMAIL_PORT = 587'''
 ''' su zulip -c '/home/zulip/deployments/current/scripts/restart-server' '''
 
 * Add Auth methods
+  * Authentication Service facilitates username/password validation using your on-premises Active Directory/LDAP server. Authentication Service is installed as a virtual appliance and communicates with your local directory using LDAP over SSL.
 * Mobile push notifications
 * Maintenance
 * Connect
