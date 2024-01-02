@@ -32,7 +32,7 @@
 EMAIL_HOST_USER = "your_registration@email.com"
 EMAIL_PORT = 587 '''
 
- * Restart the server with
+ * Restart the server with command:
 
 ''' su zulip -c '/home/zulip/deployments/current/scripts/restart-server' '''
 
