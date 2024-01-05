@@ -41,10 +41,12 @@ EMAIL_PORT = 587 '''
     
 6. Mobile push notifications
   * Push notifications are messages that can be sent directly to a user's mobile device. Unlike in-app messages, push notifications can appear on a lock screen or in the top section of a mobile device.
-    
+
 8. Maintenance
 9. Connect
   
 
 ## Deployment Architecture
 ![Screenshot from 2023-12-29 00-16-05](https://github.com/Akshaykumar05/community-forum/assets/114390890/fb381617-f709-4a66-a32d-fa36bfc119eb)
+
+### Deployment
