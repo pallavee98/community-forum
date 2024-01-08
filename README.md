@@ -28,13 +28,13 @@
 
 * Enter them in /etc/zulip/settings.py and the password in /etc/zulip/zulip-secrets.conf.
 
-''' EMAIL_HOST = "smtp-relay.sendinblue.com"
+<pre> EMAIL_HOST = "smtp-relay.sendinblue.com"
 EMAIL_HOST_USER = "your_registration@email.com"
-EMAIL_PORT = 587 '''
+EMAIL_PORT = 587</pre> 
 
  * Restart the server with command:
 
-''' su zulip -c '/home/zulip/deployments/current/scripts/restart-server' '''
+<pre>su zulip -c '/home/zulip/deployments/current/scripts/restart-server' </pre>
 
 5. Add Auth methods
   * Authentication Service facilitates username/password validation using your on-premises Active Directory/LDAP server. Authentication Service is installed as a virtual appliance and communicates with your local directory using LDAP over SSL.
