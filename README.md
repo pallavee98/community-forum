@@ -17,6 +17,11 @@
   
   ![Screenshot from 2024-01-01 14-11-12](https://github.com/Akshaykumar05/community-forum/assets/114390890/93d990b6-4e25-4a0d-afd1-5c8e397f1678)
 
+* curl: Command-line tool for making HTTP requests.
+* -f: Fail silently (i.e., don't show error messages).
+* -L: Follow redirects (if the server responds with a redirect, curl will follow it).
+* -O: Save the file with the same name as on the remote server.
+
 2. Install script
    
 4. Create new organization
