@@ -27,11 +27,21 @@ tar -xf zulip-server-latest.tar.gz
 * -O: Save the file with the same name as on the remote server.
 
 2. Install script
+* Now we’ll install it. This command uses Certbot for automatic SSL and assumes that you are root user.
+```
+./zulip-server-*/scripts/setup/install --certbot \
+    --email=YOUR_EMAIL --hostname=YOUR_HOSTNAME
+```
+* So for zulip.gis.chat it becomes:
+```
+./zulip-server-*/scripts/setup/install --certbot \
+    --email=my_support_email@my_domain.de --hostname=zulip.gis.chat
+```
    
-4. Create new organization
+3. Create new organization
   ![Screenshot from 2023-12-29 18-31-37](https://github.com/Akshaykumar05/community-forum/assets/114390890/74371606-fe75-4714-8fd7-ff2e4cddf2a3)
 
-5. Connect SMTP service
+4. Connect SMTP service
   * Outgoing email (SMTP) credentials that Zulip can use to send outgoing emails to users (e.g. email address confirmation emails during the signup process, message notification emails, password reset, etc.).
   * However, people cannot register yet, so let’s connect the SMTP service to Zulip. All you need to do is add the credentials from your SMTP provider.
 
