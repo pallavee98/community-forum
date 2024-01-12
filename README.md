@@ -60,7 +60,7 @@ EMAIL_PORT = 587
 ```
 bash su zulip -c '/home/zulip/deployments/current/scripts/restart-server'
 ```
-* **I got an error here during restarting the server, that was "outhentication denied".**
+* **I got an error here during restarting the server, that was "authentication denied".**
 * **Another error was "403 Forbidden" during opening the link of locally hosted server.**
   
 5. Add Auth methods
